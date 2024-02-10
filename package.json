@@ -2,5 +2,17 @@
   "name": "web-speed-hackathon-2023-lighthouse-action",
   "version": "0.0.0",
   "main": "index.js",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "ncc build src/index.js -o dist",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@actions/core": "1.10.1",
+    "@actions/github": "6.0.0",
+    "@vercel/ncc": "0.38.1"
+  },
+  "devDependencies": {
+    "husky": "9.0.10"
+  }
 }
