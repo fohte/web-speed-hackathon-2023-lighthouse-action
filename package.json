@@ -13,6 +13,7 @@
     "@vercel/ncc": "0.38.1"
   },
   "devDependencies": {
-    "husky": "9.0.10"
+    "husky": "9.0.10",
+    "prettier": "3.2.5"
   }
 }
