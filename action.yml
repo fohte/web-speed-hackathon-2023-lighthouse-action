@@ -1,0 +1,5 @@
+name: 'scoring web-speed-hackathon-2023 with Lighthouse'
+description: 'scoring web-speed-hackathon-2023 with Lighthouse'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
